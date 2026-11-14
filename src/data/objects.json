@@ -1,0 +1,362 @@
+{
+  "_comment": "StillOut There knowledge base. Every story sentence references a factId. Every fact carries a _verify note: the team MUST double-check each fact and source URL against the NASA page before submission. Coordinates are approximate and only used to place pins on a stylized disc.",
+  "_translationNote": "TRANSLATION REVIEW NEEDED: Tamil (ta) and Hindi (hi) story sentences were drafted with SI assistance and must be reviewed by a native speaker before use with students.",
+  "objects": [
+    {
+      "id": "apollo-17",
+      "name": "Apollo 17 Lander",
+      "type": "lander",
+      "region": "moon",
+      "place": "Taurus-Littrow valley, Moon",
+      "status": "Silent",
+      "coordinates": { "lat": 20.19, "lon": 30.77, "_verify": "TODO: verify landing-site coordinates against NSSDCA" },
+      "facts": [
+        {
+          "id": "a17-landing",
+          "text": "Apollo 17 landed on the Moon on December 11, 1972, in the Taurus-Littrow valley.",
+          "sourceName": "NSSDCA Master Catalog",
+          "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/",
+          "_verify": "VERIFY: date and landing site on the NSSDCA Apollo 17 Lunar Module entry; replace base URL with the exact entry page."
+        },
+        {
+          "id": "a17-last",
+          "text": "Apollo 17 was the last crewed landing on the Moon.",
+          "sourceName": "NASA Science: Missions",
+          "sourceUrl": "https://science.nasa.gov/mission/",
+          "_verify": "VERIFY: 'last crewed Moon landing' on the NASA Apollo 17 mission page; replace base URL with the exact page."
+        },
+        {
+          "id": "a17-stage",
+          "text": "The lander's lower stage (the descent stage) remains on the lunar surface.",
+          "sourceName": "NSSDCA Master Catalog",
+          "sourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/",
+          "_verify": "VERIFY: descent stage left on the surface, per the NSSDCA Lunar Module entry."
+        }
+      ],
+      "stories": {
+        "3-5": {
+          "en": [
+            { "text": "Hello! I'm the Apollo 17 lander, and I landed on the Moon on December 11, 1972.", "factId": "a17-landing" },
+            { "text": "My mission was the last time astronauts landed on the Moon.", "factId": "a17-last" },
+            { "text": "My bottom half, called the descent stage, is still sitting on the Moon today.", "factId": "a17-stage" }
+          ],
+          "ta": [
+            { "text": "வணக்கம்! நான் அப்பல்லோ 17 தரையிறங்கி. நான் 1972 டிசம்பர் 11 அன்று நிலவில் இறங்கினேன்.", "factId": "a17-landing" },
+            { "text": "விண்வெளி வீரர்கள் கடைசியாக நிலவில் இறங்கியது என் பயணத்தில் தான்.", "factId": "a17-last" },
+            { "text": "இறங்கு நிலை என்று அழைக்கப்படும் என் கீழ்ப்பகுதி இன்றும் நிலவில் இருக்கிறது.", "factId": "a17-stage" }
+          ],
+          "hi": [
+            { "text": "नमस्ते! मैं अपोलो 17 लैंडर हूँ। मैं 11 दिसंबर 1972 को चाँद पर उतरा था।", "factId": "a17-landing" },
+            { "text": "मेरा मिशन आख़िरी बार था जब अंतरिक्ष यात्री चाँद पर उतरे।", "factId": "a17-last" },
+            { "text": "मेरा निचला हिस्सा, जिसे डिसेंट स्टेज कहते हैं, आज भी चाँद पर है।", "factId": "a17-stage" }
+          ]
+        },
+        "6-8": {
+          "en": [
+            { "text": "I'm the Apollo 17 lunar lander, and I touched down in the Taurus-Littrow valley on December 11, 1972.", "factId": "a17-landing" },
+            { "text": "My mission is still the last time humans landed on the Moon.", "factId": "a17-last" },
+            { "text": "My lower part, the descent stage, was left behind on the surface.", "factId": "a17-stage" },
+            { "text": "If you could visit Taurus-Littrow today, you would find my descent stage still resting there.", "factId": "a17-stage" }
+          ],
+          "ta": [
+            { "text": "நான் அப்பல்லோ 17 நிலவுத் தரையிறங்கி. 1972 டிசம்பர் 11 அன்று டாரஸ்-லிட்ரோ பள்ளத்தாக்கில் இறங்கினேன்.", "factId": "a17-landing" },
+            { "text": "மனிதர்கள் கடைசியாக நிலவில் இறங்கியது இன்றுவரை என் பயணமே.", "factId": "a17-last" },
+            { "text": "என் கீழ்ப்பகுதியான இறங்கு நிலை நிலவின் மேற்பரப்பில் விட்டுச் செல்லப்பட்டது.", "factId": "a17-stage" },
+            { "text": "இன்று டாரஸ்-லிட்ரோவுக்குச் சென்றால், என் இறங்கு நிலை அங்கேயே இருப்பதைக் காணலாம்.", "factId": "a17-stage" }
+          ],
+          "hi": [
+            { "text": "मैं अपोलो 17 चंद्र लैंडर हूँ। मैं 11 दिसंबर 1972 को टॉरस-लिट्रो घाटी में उतरा था।", "factId": "a17-landing" },
+            { "text": "आज तक, इंसानों का चाँद पर आख़िरी बार उतरना मेरे मिशन में ही हुआ है।", "factId": "a17-last" },
+            { "text": "मेरा निचला हिस्सा, डिसेंट स्टेज, सतह पर ही छोड़ दिया गया।", "factId": "a17-stage" },
+            { "text": "अगर आप आज टॉरस-लिट्रो जाएँ, तो मेरा डिसेंट स्टेज वहीं मिलेगा।", "factId": "a17-stage" }
+          ]
+        }
+      },
+      "thenImage": "/images/apollo17_then.png",
+      "nowImage": "/images/apollo17_now.png",
+      "thenAlt": "Placeholder illustration of the Apollo 17 lander's descent stage standing in the gray Taurus-Littrow valley.",
+      "nowAlt": "Placeholder illustration of an orbital, top-down view of the same valley floor with the lander as a tiny bright speck.",
+      "imageCaption": "Imagery: NASA / LRO (replace with real images and add credit)"
+    },
+    {
+      "id": "spirit",
+      "name": "Spirit Rover",
+      "type": "rover",
+      "region": "mars",
+      "place": "Gusev Crater, Mars",
+      "status": "Silent",
+      "coordinates": { "lat": -14.57, "lon": 175.47, "_verify": "TODO: verify coordinates (landing site vs. final position at Troy)" },
+      "facts": [
+        {
+          "id": "sp-landing",
+          "text": "Spirit landed on Mars on January 4, 2004, in Gusev Crater.",
+          "sourceName": "NASA Science: Missions",
+          "sourceUrl": "https://science.nasa.gov/mission/",
+          "_verify": "VERIFY: landing date and site on the NASA Spirit mission page; replace base URL with the exact page."
+        },
+        {
+          "id": "sp-stuck",
+          "text": "In 2009, Spirit got stuck in soft sand at a site called \"Troy\".",
+          "sourceName": "NASA Science: Missions",
+          "sourceUrl": "https://science.nasa.gov/mission/",
+          "_verify": "VERIFY: year and site name 'Troy' on the NASA Spirit mission page."
+        },
+        {
+          "id": "sp-last",
+          "text": "Spirit's last contact with Earth was on March 22, 2010.",
+          "sourceName": "NASA Planetary Data System",
+          "sourceUrl": "https://pds.nasa.gov/",
+          "_verify": "VERIFY: last-contact date (March 22, 2010) on PDS or the NASA Spirit mission page."
+        }
+      ],
+      "stories": {
+        "3-5": {
+          "en": [
+            { "text": "Hi! I'm Spirit, a rover, and I landed in Gusev Crater on Mars on January 4, 2004.", "factId": "sp-landing" },
+            { "text": "In 2009, my wheels got stuck in soft sand at a place called Troy.", "factId": "sp-stuck" },
+            { "text": "I sent my last message to Earth on March 22, 2010.", "factId": "sp-last" }
+          ],
+          "ta": [
+            { "text": "வணக்கம்! நான் ஸ்பிரிட் ரோவர். 2004 ஜனவரி 4 அன்று செவ்வாய் கிரகத்தின் குசேவ் பள்ளத்தில் இறங்கினேன்.", "factId": "sp-landing" },
+            { "text": "2009-ல், ட்ராய் என்ற இடத்தில் மென்மையான மணலில் என் சக்கரங்கள் மாட்டிக்கொண்டன.", "factId": "sp-stuck" },
+            { "text": "2010 மார்ச் 22 அன்று பூமிக்கு என் கடைசி செய்தியை அனுப்பினேன்.", "factId": "sp-last" }
+          ],
+          "hi": [
+            { "text": "नमस्ते! मैं स्पिरिट रोवर हूँ। मैं 4 जनवरी 2004 को मंगल ग्रह के गुसेव क्रेटर में उतरा था।", "factId": "sp-landing" },
+            { "text": "2009 में, ट्रॉय नाम की जगह पर मेरे पहिए नरम रेत में फँस गए।", "factId": "sp-stuck" },
+            { "text": "मैंने 22 मार्च 2010 को पृथ्वी को अपना आख़िरी संदेश भेजा।", "factId": "sp-last" }
+          ]
+        },
+        "6-8": {
+          "en": [
+            { "text": "I'm Spirit, a robotic rover. I landed in Gusev Crater on Mars on January 4, 2004.", "factId": "sp-landing" },
+            { "text": "In 2009, I rolled into soft sand at a spot called Troy and got stuck.", "factId": "sp-stuck" },
+            { "text": "Earth last heard from me on March 22, 2010, and I have been silent ever since.", "factId": "sp-last" }
+          ],
+          "ta": [
+            { "text": "நான் ஸ்பிரிட், ஒரு ரோபோ ரோவர். 2004 ஜனவரி 4 அன்று செவ்வாயின் குசேவ் பள்ளத்தில் தரையிறங்கினேன்.", "factId": "sp-landing" },
+            { "text": "2009-ல், ட்ராய் என்ற இடத்தில் மென்மையான மணலுக்குள் சென்று மாட்டிக்கொண்டேன்.", "factId": "sp-stuck" },
+            { "text": "2010 மார்ச் 22 அன்று பூமி கடைசியாக என்னிடமிருந்து செய்தி பெற்றது; அதன் பிறகு நான் அமைதியாக இருக்கிறேன்.", "factId": "sp-last" }
+          ],
+          "hi": [
+            { "text": "मैं स्पिरिट हूँ, एक रोबोटिक रोवर। मैं 4 जनवरी 2004 को मंगल के गुसेव क्रेटर में उतरा।", "factId": "sp-landing" },
+            { "text": "2009 में, मैं ट्रॉय नाम की जगह पर नरम रेत में चला गया और फँस गया।", "factId": "sp-stuck" },
+            { "text": "पृथ्वी ने आख़िरी बार 22 मार्च 2010 को मेरी आवाज़ सुनी, तब से मैं शांत हूँ।", "factId": "sp-last" }
+          ]
+        }
+      },
+      "modelGlb": "/models/rover.glb"
+    },
+    {
+      "id": "opportunity",
+      "name": "Opportunity Rover",
+      "type": "rover",
+      "region": "mars",
+      "place": "Meridiani Planum, Mars",
+      "status": "Silent",
+      "coordinates": { "lat": -1.95, "lon": -5.53, "_verify": "TODO: verify coordinates (landing site vs. final position)" },
+      "facts": [
+        {
+          "id": "op-landing",
+          "text": "Opportunity landed on Mars on January 25, 2004, at Meridiani Planum.",
+          "sourceName": "NASA Science: Missions",
+          "sourceUrl": "https://science.nasa.gov/mission/",
+          "_verify": "VERIFY: landing date and site on the NASA Opportunity mission page; replace base URL with the exact page."
+        },
+        {
+          "id": "op-storm",
+          "text": "Opportunity's last contact with Earth was on June 10, 2018, during a global dust storm.",
+          "sourceName": "NASA Science: Missions",
+          "sourceUrl": "https://science.nasa.gov/mission/",
+          "_verify": "VERIFY: last-contact date and dust storm on the NASA Opportunity mission page."
+        },
+        {
+          "id": "op-complete",
+          "text": "NASA declared Opportunity's mission complete on February 13, 2019.",
+          "sourceName": "NASA Planetary Data System",
+          "sourceUrl": "https://pds.nasa.gov/",
+          "_verify": "VERIFY: mission-complete date (Feb 13, 2019) on PDS or the NASA Opportunity mission page."
+        }
+      ],
+      "stories": {
+        "3-5": {
+          "en": [
+            { "text": "Hi! I'm Opportunity, a rover, and I landed at Meridiani Planum on Mars on January 25, 2004.", "factId": "op-landing" },
+            { "text": "On June 10, 2018, a huge dust storm covered all of Mars, and that was the last time I talked to Earth.", "factId": "op-storm" },
+            { "text": "On February 13, 2019, my team said my mission was complete.", "factId": "op-complete" }
+          ],
+          "ta": [
+            { "text": "வணக்கம்! நான் ஆப்பர்சூனிட்டி ரோவர். 2004 ஜனவரி 25 அன்று செவ்வாயின் மெரிடியானி பிளானம் பகுதியில் இறங்கினேன்.", "factId": "op-landing" },
+            { "text": "2018 ஜூன் 10 அன்று, ஒரு பெரிய புழுதிப் புயல் செவ்வாய் முழுவதையும் மூடியது; அப்போதுதான் நான் கடைசியாக பூமியுடன் பேசினேன்.", "factId": "op-storm" },
+            { "text": "2019 பிப்ரவரி 13 அன்று, என் பணி முடிந்தது என்று என் குழு அறிவித்தது.", "factId": "op-complete" }
+          ],
+          "hi": [
+            { "text": "नमस्ते! मैं ऑपर्च्युनिटी रोवर हूँ। मैं 25 जनवरी 2004 को मंगल के मेरिडियानी प्लैनम में उतरा था।", "factId": "op-landing" },
+            { "text": "10 जून 2018 को एक बड़े धूल के तूफ़ान ने पूरे मंगल को ढक लिया, और उसी समय मैंने आख़िरी बार पृथ्वी से बात की।", "factId": "op-storm" },
+            { "text": "13 फ़रवरी 2019 को मेरी टीम ने कहा कि मेरा मिशन पूरा हो गया।", "factId": "op-complete" }
+          ]
+        },
+        "6-8": {
+          "en": [
+            { "text": "I'm Opportunity, a robotic rover. I landed on a Martian plain called Meridiani Planum on January 25, 2004.", "factId": "op-landing" },
+            { "text": "In 2018, a global dust storm wrapped the whole planet.", "factId": "op-storm" },
+            { "text": "My last contact with Earth was on June 10, 2018, during that storm.", "factId": "op-storm" },
+            { "text": "NASA declared my mission complete on February 13, 2019.", "factId": "op-complete" }
+          ],
+          "ta": [
+            { "text": "நான் ஆப்பர்சூனிட்டி, ஒரு ரோபோ ரோவர். 2004 ஜனவரி 25 அன்று மெரிடியானி பிளானம் என்ற செவ்வாய் சமவெளியில் இறங்கினேன்.", "factId": "op-landing" },
+            { "text": "2018-ல், ஒரு உலகளாவிய புழுதிப் புயல் முழு கிரகத்தையும் சூழ்ந்தது.", "factId": "op-storm" },
+            { "text": "அந்தப் புயலின் போது, 2018 ஜூன் 10 அன்று பூமியுடன் என் கடைசித் தொடர்பு நடந்தது.", "factId": "op-storm" },
+            { "text": "2019 பிப்ரவரி 13 அன்று நாசா என் பணி நிறைவடைந்ததாக அறிவித்தது.", "factId": "op-complete" }
+          ],
+          "hi": [
+            { "text": "मैं ऑपर्च्युनिटी हूँ, एक रोबोटिक रोवर। मैं 25 जनवरी 2004 को मेरिडियानी प्लैनम नाम के मंगल के मैदान पर उतरा।", "factId": "op-landing" },
+            { "text": "2018 में, धूल के एक वैश्विक तूफ़ान ने पूरे ग्रह को घेर लिया।", "factId": "op-storm" },
+            { "text": "उसी तूफ़ान के दौरान, 10 जून 2018 को पृथ्वी से मेरा आख़िरी संपर्क हुआ।", "factId": "op-storm" },
+            { "text": "13 फ़रवरी 2019 को नासा ने मेरा मिशन पूरा घोषित किया।", "factId": "op-complete" }
+          ]
+        }
+      },
+      "modelGlb": "/models/rover.glb"
+    },
+    {
+      "id": "ingenuity",
+      "name": "Ingenuity Helicopter",
+      "type": "helicopter",
+      "region": "mars",
+      "place": "Jezero Crater, Mars",
+      "status": "Silent",
+      "coordinates": { "lat": 18.44, "lon": 77.45, "_verify": "TODO: verify coordinates (approximate Jezero Crater location, not final resting spot)" },
+      "facts": [
+        {
+          "id": "in-first",
+          "text": "On April 19, 2021, Ingenuity made the first powered, controlled flight on another planet.",
+          "sourceName": "NASA Science: Missions",
+          "sourceUrl": "https://science.nasa.gov/mission/",
+          "_verify": "VERIFY: first-flight date on the NASA Ingenuity mission page; replace base URL with the exact page."
+        },
+        {
+          "id": "in-flights",
+          "text": "Ingenuity completed 72 flights on Mars.",
+          "sourceName": "NASA Science: Missions",
+          "sourceUrl": "https://science.nasa.gov/mission/",
+          "_verify": "VERIFY: total of 72 flights on the NASA Ingenuity mission page."
+        },
+        {
+          "id": "in-end",
+          "text": "Ingenuity's mission ended in January 2024 after its rotor blades were damaged.",
+          "sourceName": "NASA Science: Missions",
+          "sourceUrl": "https://science.nasa.gov/mission/",
+          "_verify": "VERIFY: mission end (January 2024) and rotor blade damage on the NASA Ingenuity mission page."
+        }
+      ],
+      "stories": {
+        "3-5": {
+          "en": [
+            { "text": "Hi! I'm Ingenuity, a little helicopter, and on April 19, 2021, I made the first powered, controlled flight on another planet.", "factId": "in-first" },
+            { "text": "I flew 72 times on Mars!", "factId": "in-flights" },
+            { "text": "In January 2024, my rotor blades were damaged, and my mission ended.", "factId": "in-end" }
+          ],
+          "ta": [
+            { "text": "வணக்கம்! நான் இன்ஜெனூயிட்டி, ஒரு சிறிய ஹெலிகாப்டர். 2021 ஏப்ரல் 19 அன்று, வேறொரு கிரகத்தில் முதல் இயந்திர சக்தியுடன் கட்டுப்படுத்தப்பட்ட பறப்பை நிகழ்த்தினேன்.", "factId": "in-first" },
+            { "text": "நான் செவ்வாயில் 72 முறை பறந்தேன்!", "factId": "in-flights" },
+            { "text": "2024 ஜனவரியில் என் சுழலி இறக்கைகள் சேதமடைந்தன; என் பணி முடிந்தது.", "factId": "in-end" }
+          ],
+          "hi": [
+            { "text": "नमस्ते! मैं इनजेन्युटी हूँ, एक छोटा हेलिकॉप्टर। 19 अप्रैल 2021 को मैंने किसी दूसरे ग्रह पर पहली संचालित और नियंत्रित उड़ान भरी।", "factId": "in-first" },
+            { "text": "मैंने मंगल पर 72 बार उड़ान भरी!", "factId": "in-flights" },
+            { "text": "जनवरी 2024 में मेरे रोटर ब्लेड को नुकसान पहुँचा, और मेरा मिशन ख़त्म हो गया।", "factId": "in-end" }
+          ]
+        },
+        "6-8": {
+          "en": [
+            { "text": "I'm Ingenuity, a helicopter built to fly on Mars.", "factId": "in-first" },
+            { "text": "On April 19, 2021, I made the first powered, controlled flight on another planet.", "factId": "in-first" },
+            { "text": "Altogether, I completed 72 flights.", "factId": "in-flights" },
+            { "text": "My mission ended in January 2024 after my rotor blades were damaged.", "factId": "in-end" }
+          ],
+          "ta": [
+            { "text": "நான் இன்ஜெனூயிட்டி, செவ்வாயில் பறப்பதற்காக உருவாக்கப்பட்ட ஒரு ஹெலிகாப்டர்.", "factId": "in-first" },
+            { "text": "2021 ஏப்ரல் 19 அன்று, வேறொரு கிரகத்தில் முதல் இயந்திர சக்தியுடன் கட்டுப்படுத்தப்பட்ட பறப்பை நிகழ்த்தினேன்.", "factId": "in-first" },
+            { "text": "மொத்தம் 72 பறப்புகளை முடித்தேன்.", "factId": "in-flights" },
+            { "text": "என் சுழலி இறக்கைகள் சேதமடைந்த பிறகு, 2024 ஜனவரியில் என் பணி முடிவடைந்தது.", "factId": "in-end" }
+          ],
+          "hi": [
+            { "text": "मैं इनजेन्युटी हूँ, मंगल पर उड़ने के लिए बनाया गया एक हेलिकॉप्टर।", "factId": "in-first" },
+            { "text": "19 अप्रैल 2021 को मैंने किसी दूसरे ग्रह पर पहली संचालित, नियंत्रित उड़ान भरी।", "factId": "in-first" },
+            { "text": "कुल मिलाकर, मैंने 72 उड़ानें पूरी कीं।", "factId": "in-flights" },
+            { "text": "रोटर ब्लेड को नुकसान पहुँचने के बाद, जनवरी 2024 में मेरा मिशन ख़त्म हुआ।", "factId": "in-end" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "voyager-1",
+      "name": "Voyager 1",
+      "type": "probe",
+      "region": "space",
+      "place": "Interstellar space",
+      "status": "Still travelling",
+      "coordinates": null,
+      "facts": [
+        {
+          "id": "v1-launch",
+          "text": "Voyager 1 launched on September 5, 1977.",
+          "sourceName": "NASA Science: Voyager",
+          "sourceUrl": "https://science.nasa.gov/mission/voyager/",
+          "_verify": "VERIFY: launch date on the NASA Voyager mission page; confirm the URL resolves."
+        },
+        {
+          "id": "v1-interstellar",
+          "text": "Voyager 1 entered interstellar space in August 2012.",
+          "sourceName": "NASA Science: Voyager",
+          "sourceUrl": "https://science.nasa.gov/mission/voyager/",
+          "_verify": "VERIFY: interstellar-space date (August 2012) on the NASA Voyager mission page."
+        },
+        {
+          "id": "v1-data",
+          "text": "Voyager 1 is still sending data back to Earth.",
+          "sourceName": "Voyager Mission Status (JPL)",
+          "sourceUrl": "https://voyager.jpl.nasa.gov/mission/status/",
+          "_verify": "VERIFY: current operational status on voyager.jpl.nasa.gov before every demo."
+        }
+      ],
+      "stories": {
+        "3-5": {
+          "en": [
+            { "text": "Hi! I'm Voyager 1, and I blasted off from Earth on September 5, 1977.", "factId": "v1-launch" },
+            { "text": "In August 2012, I flew out into interstellar space, the space between the stars.", "factId": "v1-interstellar" },
+            { "text": "I'm still travelling, and I still send data back to Earth!", "factId": "v1-data" }
+          ],
+          "ta": [
+            { "text": "வணக்கம்! நான் வாயேஜர் 1. 1977 செப்டம்பர் 5 அன்று பூமியிலிருந்து புறப்பட்டேன்.", "factId": "v1-launch" },
+            { "text": "2012 ஆகஸ்டில், நட்சத்திரங்களுக்கு இடையிலான விண்வெளிக்குள் நுழைந்தேன்.", "factId": "v1-interstellar" },
+            { "text": "நான் இன்னும் பயணித்துக்கொண்டிருக்கிறேன், இன்னும் பூமிக்குத் தகவல்களை அனுப்புகிறேன்!", "factId": "v1-data" }
+          ],
+          "hi": [
+            { "text": "नमस्ते! मैं वॉयेजर 1 हूँ। मैं 5 सितंबर 1977 को पृथ्वी से रवाना हुआ था।", "factId": "v1-launch" },
+            { "text": "अगस्त 2012 में, मैं तारों के बीच वाले अंतरिक्ष, यानी अंतरतारकीय अंतरिक्ष में पहुँच गया।", "factId": "v1-interstellar" },
+            { "text": "मैं अभी भी यात्रा कर रहा हूँ और अभी भी पृथ्वी को डेटा भेजता हूँ!", "factId": "v1-data" }
+          ]
+        },
+        "6-8": {
+          "en": [
+            { "text": "I'm Voyager 1, a space probe launched on September 5, 1977.", "factId": "v1-launch" },
+            { "text": "In August 2012, I crossed into interstellar space, the region between the stars.", "factId": "v1-interstellar" },
+            { "text": "Unlike many of my friends in this app, I'm not silent: I'm still sending data home.", "factId": "v1-data" }
+          ],
+          "ta": [
+            { "text": "நான் வாயேஜர் 1, 1977 செப்டம்பர் 5 அன்று ஏவப்பட்ட ஒரு விண்வெளி ஆய்வுக்கலம்.", "factId": "v1-launch" },
+            { "text": "2012 ஆகஸ்டில், நட்சத்திரங்களுக்கு இடையிலான பகுதியான விண்மீன்களிடை வெளிக்குள் நுழைந்தேன்.", "factId": "v1-interstellar" },
+            { "text": "இந்தச் செயலியில் உள்ள என் பல நண்பர்களைப் போல நான் அமைதியாக இல்லை; இன்னும் வீட்டுக்குத் தகவல்களை அனுப்பிக்கொண்டிருக்கிறேன்.", "factId": "v1-data" }
+          ],
+          "hi": [
+            { "text": "मैं वॉयेजर 1 हूँ, एक अंतरिक्ष यान जिसे 5 सितंबर 1977 को लॉन्च किया गया था।", "factId": "v1-launch" },
+            { "text": "अगस्त 2012 में, मैं तारों के बीच के क्षेत्र, अंतरतारकीय अंतरिक्ष में पहुँच गया।", "factId": "v1-interstellar" },
+            { "text": "इस ऐप के मेरे कई दोस्तों की तरह मैं शांत नहीं हूँ; मैं अभी भी घर पर डेटा भेज रहा हूँ।", "factId": "v1-data" }
+          ]
+        }
+      }
+    }
+  ]
+}

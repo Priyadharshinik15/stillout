@@ -1,0 +1,70 @@
+{
+  "_comment": "Science Missions. Each correct answer and explanation is backed by a factId in objects.json. VERIFY each explanation alongside its fact.",
+  "missions": [
+    {
+      "id": "m-spirit",
+      "objectId": "spirit",
+      "question": "Why did Spirit get stuck?",
+      "options": [
+        { "id": "a", "label": "Soft sand trap" },
+        { "id": "b", "label": "Low battery" },
+        { "id": "c", "label": "Radio failure" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "In 2009, Spirit's wheels sank into soft sand at a site called Troy, and it could not drive out.",
+      "factId": "sp-stuck"
+    },
+    {
+      "id": "m-ingenuity",
+      "objectId": "ingenuity",
+      "question": "What did Ingenuity do for the first time on April 19, 2021?",
+      "options": [
+        { "id": "a", "label": "Landed on the Moon" },
+        { "id": "b", "label": "Made the first powered, controlled flight on another planet" },
+        { "id": "c", "label": "Took the first photo of Jupiter" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ingenuity was the first aircraft to make a powered, controlled flight on another planet: Mars!",
+      "factId": "in-first"
+    },
+    {
+      "id": "m-voyager",
+      "objectId": "voyager-1",
+      "question": "What happened to Voyager 1 in August 2012?",
+      "options": [
+        { "id": "a", "label": "It landed on Mars" },
+        { "id": "b", "label": "It came back to Earth" },
+        { "id": "c", "label": "It entered interstellar space" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "In August 2012, Voyager 1 entered interstellar space, the region between the stars.",
+      "factId": "v1-interstellar"
+    },
+    {
+      "id": "m-opportunity",
+      "objectId": "opportunity",
+      "question": "What was happening on Mars when Opportunity last talked to Earth?",
+      "options": [
+        { "id": "a", "label": "A global dust storm" },
+        { "id": "b", "label": "A volcano erupting" },
+        { "id": "c", "label": "A heavy rainstorm" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Opportunity's last contact was on June 10, 2018, during a dust storm that covered the whole planet.",
+      "factId": "op-storm"
+    },
+    {
+      "id": "m-apollo17",
+      "objectId": "apollo-17",
+      "question": "Which part of the Apollo 17 lander is still on the Moon?",
+      "options": [
+        { "id": "a", "label": "The whole rocket" },
+        { "id": "b", "label": "The descent stage (lower part)" },
+        { "id": "c", "label": "Nothing, it all came home" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The lander's lower stage, called the descent stage, remains on the lunar surface in Taurus-Littrow.",
+      "factId": "a17-stage"
+    }
+  ]
+}
