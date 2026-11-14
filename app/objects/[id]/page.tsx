@@ -1,4 +1,6 @@
 // Portions of this code were generated with SI assistance and reviewed by the team.
+import { existsSync } from 'node:fs'
+import path from 'node:path'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -69,7 +71,13 @@ export default async function ObjectPage({ params }: PageProps) {
               caption={object.imageCaption ?? ''}
             />
           )}
-          {object.modelGlb && <ArViewer src={object.modelGlb} name={object.name} />}
+          {object.modelGlb && (
+            <ArViewer
+              src={object.modelGlb}
+              name={object.name}
+              available={existsSync(path.join(process.cwd(), 'public', object.modelGlb))}
+            />
+          )}
 
           <section aria-labelledby="facts-heading" className="glow-card flex flex-col gap-3 p-5">
             <h2 id="facts-heading" className="text-lg font-bold">

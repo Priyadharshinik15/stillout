@@ -33,7 +33,7 @@ export function SegmentedToggle<T extends string>({ label, value, options, onCha
               aria-label={o.ariaLabel}
               onClick={() => onChange(o.value)}
               className={cn(
-                'min-h-11 min-w-14 flex-1 rounded-full px-4 text-sm font-semibold transition-colors',
+                'min-h-11 min-w-14 flex-1 whitespace-nowrap rounded-full px-4 text-sm font-semibold transition-colors',
                 active ? 'text-primary-foreground' : 'text-muted-foreground hover:text-foreground',
               )}
               style={active ? { backgroundColor: accent } : undefined}

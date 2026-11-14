@@ -7,9 +7,10 @@ import { Box } from 'lucide-react'
 
 const MODEL_VIEWER_SRC = 'https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js'
 
-export function ArViewer({ src, name }: { src: string; name: string }) {
+export function ArViewer({ src, name, available }: { src: string; name: string; available: boolean }) {
   const viewerRef = useRef<HTMLElement>(null)
-  const [failed, setFailed] = useState(false)
+  const [loadFailed, setFailed] = useState(false)
+  const failed = !available || loadFailed
 
   useEffect(() => {
     const el = viewerRef.current
@@ -21,7 +22,9 @@ export function ArViewer({ src, name }: { src: string; name: string }) {
 
   return (
     <section aria-labelledby="ar-heading" className="glow-card flex flex-col gap-4 p-5 sm:p-6">
-      <Script src={MODEL_VIEWER_SRC} type="module" strategy="afterInteractive" onError={() => setFailed(true)} />
+      {available && (
+        <Script src={MODEL_VIEWER_SRC} type="module" strategy="afterInteractive" onError={() => setFailed(true)} />
+      )}
       <div className="flex flex-col gap-1">
         <p className="text-xs font-semibold uppercase tracking-widest text-space-green">AR viewer</p>
         <h2 id="ar-heading" className="text-2xl font-bold">
